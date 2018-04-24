@@ -8,3 +8,15 @@ length' xs = sum [1 | _ <- xs]
 
 enumeratePair xs = zip [1..] xs
 
+removeNonUppercase :: String -> String
+removeNonUppercase xs = [x | x <- xs, x `elem` ['A'..'Z']]
+
+factorial :: Integer -> Integer
+factorial n = product [1..n]
+
+circumference :: Float -> Float
+circumference r = 2 * pi * r
+
+circumference' :: Double -> Double
+circumference' r = 2 * pi * r
+
