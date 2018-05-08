@@ -20,3 +20,7 @@ circumference r = 2 * pi * r
 circumference' :: Double -> Double
 circumference' r = 2 * pi * r
 
+isItSeven :: Int -> String
+isItSeven 7 = "Yes mate, it is a seven! :'V"
+isItSeven x = "Nope, it is not seven my friend."
+
